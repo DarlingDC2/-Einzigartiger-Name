@@ -1,4 +1,13 @@
 .navbar {
     background-color: #0c3559;;
-  }
+}
 
+button {
+    font-size: 20px;
+    background-color: rgb(86, 163, 214);
+    border-radius: 8px;
+}
+
+.box {
+    margin: 0px 0px 20px 0px;
+}

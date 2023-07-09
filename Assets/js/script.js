@@ -1,5 +1,3 @@
-
-
 fetch(`https://api.openweathermap.org/data/2.5/forecast?q=Maybee,MI,US&appid=7972e0046f5da850a7265105b61c7dc3`, {
     method: 'GET',
 })
