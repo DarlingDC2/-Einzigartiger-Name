@@ -4,10 +4,39 @@
 
 button {
     font-size: 20px;
-    background-color: rgb(86, 163, 214);
+    background-color: rgb(49, 158, 230);
     border-radius: 8px;
 }
 
 .box {
     margin: 0px 0px 20px 0px;
+}
+
+.current {
+    background-color: rgb(235, 243, 245);
+    padding: 10px;
+    margin: 100px 40px 20px 20px;
+}
+
+.forecast-item {
+    display: inline-block;
+    width: 19%;
+    padding: 10px;
+    background-color: rgb(49, 158, 230);
+    border: 2px solid #1c6fc360;
+    margin: 2px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+  
+li {
+    cursor: pointer;
+    padding: 0px 15px;
+    margin: 10px 5%;
+    font-size: 20px;
+    background-color: #5897cf;
+    border-radius: 8px;
 }
