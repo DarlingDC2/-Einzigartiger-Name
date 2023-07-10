@@ -58,8 +58,8 @@ function displayForecast(data) {
     var forecastItems =  [data.list[0], data.list[8], data.list[16], data.list[24], data.list[32]];
     var forecastHTML = forecastItems.map(item => {
     var date = new Date(item.dt * 1000);
+    var POP = (item.pop*100);
     return `
-    
     
     <div class="forecast-item">
         <h3>${date.toLocaleDateString()}</h3>
@@ -67,6 +67,7 @@ function displayForecast(data) {
         <p>Temperature: ${item.main.temp}  °F</p>
         <p>Humidity: ${item.main.humidity}%</p>
         <p>Wind Speed: ${item.wind.speed} mph</p>
+        <p>Precipitation %: ${POP}%</p>
       </div>
     `;
   }).join('');
